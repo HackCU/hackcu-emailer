@@ -66,6 +66,16 @@
     "@types/yargs": "^15.0.9",
     "@types/jest": "^26.0.15"
   },
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branches": "main"
+  },
   "prettier": {
     "trailingComma": "all",
     "semi": true,
