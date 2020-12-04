@@ -8,6 +8,26 @@
 
 A cli for sending emails to sponsors
 
+## CLI Usage
+
+Make sure you have npm or yarn installed.
+
+Then run `npm install -g hackcu-emailer` to install the package globally.
+
+Then generate the template csv file: `hackcu-emailer generate` This will create `generated.csv`
+(ignore the last column).
+
+Then plug in the data there.
+
+Note: `hackcu-emailer test sends a test email`
+
+To send **mass** use `hackcu-emailer email`.
+
+Notes the full usage would be
+`hackcu-emailer email --file generated.csv --apiKey SENDGRID_API_KEY --name Kyle --role "Tech Director" --email kyle@hackcu.org --send -v`
+
+Note without `--send` or `-s` the cli will **not** send the emails.
+
 ## Run project
 
 Needs: `node.js` and `yarn`
