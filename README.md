@@ -23,7 +23,7 @@ Note: `hackcu-emailer test sends a test email`
 
 To send **mass** use `hackcu-emailer email`.
 
-Notes the full usage would be
+**Note:** the full usage would be
 `hackcu-emailer email --file generated.csv --apiKey SENDGRID_API_KEY --name Kyle --role "Tech Director" --email kyle@hackcu.org --send -v`
 
 Note without `--send` or `-s` the cli will **not** send the emails.
