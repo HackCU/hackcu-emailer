@@ -46,6 +46,7 @@ export function generateTemplate({
         {role}
         <br />
         {emailTo}
+        <br />
       </p>
     </div>
   );
